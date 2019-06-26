@@ -8,8 +8,10 @@
   },
   "license": "MIT",
   "dependencies": {
-    "aurelia-bootstrapper": "^2.3.2",
-    "aurelia-animator-css": "^1.0.4"
+    "au-mod-a": "file:submodules/auModA",
+    "au-mod-c": "file:submodules/auModC",
+    "aurelia-animator-css": "^1.0.4",
+    "aurelia-bootstrapper": "^2.3.2"
   },
   "devDependencies": {
     "aurelia-cli": "^1.0.1",

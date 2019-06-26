@@ -9,7 +9,9 @@
       "webRoot": "${workspaceRoot}/src",
       "userDataDir": "${workspaceRoot}/.chrome",
       "sourceMapPathOverrides": {
-        "webpack:///./src/*": "${webRoot}/*"
+        "webpack:///./src/*": "${webRoot}/*",
+        "webpack:///./node_modules/auModA/*": "${workspaceRoot}/submodules/auModA/*",
+        "webpack:///./node_modules/auModC/*": "${workspaceRoot}/submodules/auModC/*"
       }
     }
   ]

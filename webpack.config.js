@@ -29,6 +29,7 @@ const cssRules = [
 module.exports = ({ production, server, extractCss, coverage, analyze, karma } = {}) => ({
   resolve: {
     extensions: ['.ts', '.js'],
+    symlinks: false,
     modules: [srcDir, 'node_modules'],
     // Enforce single aurelia-binding, to avoid v1/v2 duplication due to
     // out-of-date dependencies on 3rd party aurelia plugins
