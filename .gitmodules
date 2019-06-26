@@ -1,0 +1,6 @@
+[submodule "submodules/auModA"]
+	path = submodules/auModA
+	url = https://github.com/MichaelPetrinolis/auModA.git
+[submodule "submodules/auModC"]
+	path = submodules/auModC
+	url = https://github.com/MichaelPetrinolis/auModC.git
