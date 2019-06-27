@@ -21,9 +21,9 @@
     }
   },
   "platform": {
-    "hmr": false,
+    "hmr": true,
     "open": false,
-    "port": 8080,
+    "port": 8090,
     "output": "dist"
   },
   "packageManager": "npm"
